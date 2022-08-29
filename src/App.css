@@ -1,38 +1,406 @@
-.App {
-  text-align: center;
+body{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.row{
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: dimgrey; */
+    /* justify-content: left; */
+}
+.row3{
+    display:flex;
+    justify-content: space-evenly;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color:darkgray;
+    height: 50px;
+    color: black;
+}
+a{
+    color:black;
+    text-decoration: none;
+    text-align: left;
+}
+.nav-link{
+    color:black;
+    margin: 15px;
+    /* padding: 10px; */
+}
+.card{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    border:none;
+    justify-content: baseline;
+    /* background-color: dimgrey; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img{
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 18rem;
+    height:15 rem;
+}
+#img1{
+    padding: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: auto;
+    height:auto;
+}
+.col-md-8{
+    margin:0px;
+}
+h1{
+    color: black;
+    text-align: center;
+    padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn1{
+    border-radius: 5px;
+    margin: 4px;
+    background-color:burlywood;
+    color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row1{
+    background-color: rosybrown;
+    width: 400px;
+    text-align: center;
+    margin: 150px auto;
+    border-radius: 20px;
+    padding-top: 10;
+    padding-bottom: 20px;
+}
+.row2{
+    /* border: 4px solid red; */
+    width: 400px;
+    /* height: auto; */
+    text-align: center;
+    margin: 20px auto;
+    /* padding: 0px; */
+    /* border-radius: 20px; */
+    /* padding-top: 2px; */
+    padding-bottom: 20px;
+    /* bottom: 20px; */
+    background-image: url(data:image/jpeg;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
+
+}
+.form5{
+    background-image: url(data:image/jpeg;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
+}
+
+.form-group{
+    margin: 10px;
+    /* padding: 10px; */
+}
+.form-check-label{
+    float: left;
+}
+.card-img-top{
+    height: 15rem;
+}
+
+.footer{
+    /* top: 0px; */
+    padding:20px;
+    width: 100%;
+    background: #333;
+    color:#efefef;
+    display: flex;
+    height: 300px;
+    text-align: center;
+}
+.footer div{
+    text-align: center;
+}
+.col-b{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300px;
+    /* margin-bottom: 10px; */
+    letter-spacing: 1px;
+}
+.col-a a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #efefef;
+    text-align: center;
+}
+/* form input{ */
+    /* width: 400px; */
+    /* height: 45px; */
+    /* border-radius:40px; */
+    /* text-align: center; */
+    /* outline: none; */
+    /* border: none; */
+    /* margin-top:20px ; */
+    /* margin-bottom: 40px; */
+    /* border: none; */
+/* } */
+form button{
+    background: transparent;
+    /* border: 2px solid blue; */
+    color:white;
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.navbar-brand{
+    color: blue;
+}
+
+.btn-1{
+    background-color: darkseagreen;
+    color:white;
+    margin: 10px;
+    width: 150px;
+    border: none;
+    
+}
+.btn-2{
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEVCZ7Lbt0u0AAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=);
+    color:white;
+    margin: 10px;
+    width: 160px;
+    border: none;
+}
+.btn-3{
+    background-color: orangered;
+    color: white;
+    margin: 10px;
+    width: 160px;
+    border: none;
+}
+.btn-f{
+    /* background-color: dimgray; */
+    justify-content: space-evenly;
+}
+h3{
+    text-align: center;
+}
+
+
+
+
+.row4{
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    /* background-color: blanchedalmond; */
+}
+.card0{
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+}
+.img1{
+    width: 100%;
+    height: 50px;
+    object-fit: contain;
+}
+.d-block{
+    height: 600px;
+    width: 100%;
+    object-fit: fill;
+}
+
+.fa-brands{
+    margin: 10px;
+}
+
+.col-md-8{
+    background-color: #efefef;
+}
+
+
+.input-group{
+    border-radius: 20px;
+}
+.form-control{
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.form-label{
+float: left;
+}
+.img4{
+    float: left;
+}
+.register{
+    text-align: center;
+}
+.p{
+    text-align: left;
+}
+.btn{
+    background-color: darkorange;
+    color: black;
+}
+/* #btn-a{ */
+    /* background-color: rgb(0, 255, 21); */
+    /* color: black; */
+/* } */
+/* #btn-b{ */
+    /* background-color: rgb(0, 247, 255); */
+    /* color: black; */
+/* } */
+#form-control1{
+    border: none;
+    width: 500px;
+}
+
+.about{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    bottom: 20px;
+    background-image: url(https://img.freepik.com/premium-vector/elegant-white-texture-background_23-2148431731.jpg?w=2000);
+    padding:0px;
+
+}
+.us{
+    background-image: url(https://img.freepik.com/premium-vector/elegant-white-texture-background_23-2148431731.jpg?w=2000);
+    padding-bottom: 20px;
+    padding: 0px;
+
+
+}
+.login{
+    background-image: url(https://www.wallpaperflare.com/static/674/247/756/abstract-shapes-minimalism-blue-background-wallpaper.jpg);
+    padding-bottom: 20px;
+}
+
+h3{
+    padding-top: 40px;
+}
+
+.form-footer{
+    width: 400px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.input-group-text{
+    background-color: blue;
+}
+
+/* .card4{ */
+    /* width: 100%; */
+    /* height: 400px; */
+    /* padding: 20px; */
+    /* margin: 40px; */
+/* } */
+.goldstar{
+/* background-color: rosybrown; */
+width: 1000px;
+text-align: center;
+margin:20px auto;
+padding-bottom: 20px;
+height: auto;
+justify-content: center;
+display: flex;
+}
+.card-img-top1{
+    height: 45rem;
+    width: 500px;
+}
+.b{
+    text-decoration: line-through;
+    color: #333;
+    text-align: left;
+}
+.RS{
+    color: coral;
+    font-size: 40px;
+    text-align: left;
+}
+.promotions{
+    background-color: coral;
+
+}
+.gold{
+    text-align: left;
+    
+}
+.add{
+    display: flex;
+    justify-content: space-evenly;
+}
+.buy{
+    width: 150px;
+    background-color: cornflowerblue;
+    border: none;
+    height: 40px;
+    color: white;
+}
+.add1{
+    width: 150px;
+    background-color: coral;
+    border: none;
+    height: 40px;
+    color: white;
+
+}
+.size{
+    border: 1px solid darkolivegreen;
+    text-align: left;
+    margin-left: 50px;
+    word-spacing: 10px;
+    background-color: white;
+    
+}
+.size1{
+    border: 1px solid red;
+    text-align: left;
+    margin-left: 50px;
+    word-spacing: 10px;
+    background-color: white;
+    
+}
+.uk{
+    word-spacing:20px ;
+}
+.quantity{
+    margin: 20px;
+    border: none;
+    text-align: center;
+    width: 30px;
+}
+
+.quantity1{
+    margin: 20px;
+    border: none;
+    text-align: center;
+    width: 30px;
+
+}
+.float{
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card-body1{
+    height: 45rem;
+    width: 500px;
+}
+.description{
+    padding: 0px;
 }
