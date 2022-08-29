@@ -8,7 +8,7 @@ const Login =()=>{
         <h3>Welcome to Shopping Mall! Log in</h3>
         <form className="row2">
         <div className="form-group">
-          <label >Email address</label>
+          <label >Email Address</label>
           <input type="email" className="form-control"  placeholder="Enter email" required />
 
           <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
